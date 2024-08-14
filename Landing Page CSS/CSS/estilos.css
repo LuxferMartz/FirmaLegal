@@ -207,6 +207,7 @@ body{
 .price_table{
     padding-top: 60px;
     display: flex;
+    flex-wrap: wrap;
     gap: 2.5em;
     justify-content: space-evenly;
     align-items: center;
@@ -263,6 +264,7 @@ body{
     
 
     .testimony_container{
+        flex-wrap: wrap;
         display: grid;
         grid-template-columns: 50px 1fr 50px;
         gap: 1em;
@@ -270,6 +272,7 @@ body{
     }
 
     .testimony_body{
+        flex-wrap: wrap;
         display: grid;
         grid-template-columns: 1fr max-content;
         justify-content: space-between;
@@ -282,6 +285,7 @@ body{
     }
 
     .testimony_body-show{
+        flex-wrap: wrap;
         pointer-events: unset;
         opacity: 1;
         transition: opacity 1.5s ease-in-out;
@@ -296,11 +300,13 @@ body{
     }
 
     .testimony_texts{
+        flex-wrap: wrap;
         max-width: 700px;
         text-align: justify;
     }
 
     .testimony_course{
+        flex-wrap: wrap;
         background-color: royalblue;
         color: #fff;
         display: inline-block;
@@ -308,6 +314,7 @@ body{
     }
 
     .testimony_arrow{
+        flex-wrap: wrap;
         width: 90%;
         cursor: pointer;
     }
@@ -455,7 +462,7 @@ body{
     }
 
     .footer_copy{
-        --padding-container: 30px 0;
+        --padding--container: 30px 0;
         text-align: center;
         color: #fff;
     }
