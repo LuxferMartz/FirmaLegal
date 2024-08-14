@@ -195,23 +195,127 @@ body{
     max-width: 500px;
 }
 
+.knowledge_paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
 .knowledge_img{
     width: 100%;
     display: block;
 }
 
-.knowledge_paragraph{
-    line-height: 1.7;
-    margin-bottom: 15px;
-    
-}
-
 /* price */
 
-.price_container{
+.price{
     text-align: center;
-        .price_table{
-        padding-top: 60px;
-        display: flex;
-    }
 }
+
+.price_table{
+    padding-top: 60px;
+    display: flex;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price_element{
+    background-color: #E5E5F7;
+    text-align: center;
+    border-radius: 10px;
+    width: 338px;
+    padding: 40px;
+    --color-plan: #696871;
+    --color-price: #1d293f;
+    --bg-cta: #fff;
+    --color-cta: #5454D4;
+    --color-items: #696b71;
+    }
+
+    .price_name{
+        color: var(--color-plan);
+        margin-bottom: 15px;
+        font-weight: 300px;
+        
+    }
+
+    .price_price{
+        font-size: 2.0rem;
+        color: var(--color-price);
+    }
+
+    .price_items{
+        margin-top: 35px;
+        display: grid;
+        gap: 1em;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        color: var(--color-items);
+    }
+
+    .price_cta{
+        display: block;
+        padding: 20px 0;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: var(--bg-cta);
+        font-weight: 600;
+        box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    }
+
+    /* Testimony */
+
+    .testimony{
+        background-color: #e5e5f7;
+    }
+    
+
+    .testimony_container{
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .testimony_body{
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .testimony_body-show{
+        pointer-events: unset;
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+    }
+
+    .testimony_img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 30%;
+    }
+
+    .testimony_texts{
+        max-width: 700px;
+    }
+
+    .testimony_course{
+        background-color: royalblue;
+        color: #fff;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .testimony_arrow{
+        width: 90%;
+        cursor: pointer;
+    }
