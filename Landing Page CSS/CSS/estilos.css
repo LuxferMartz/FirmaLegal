@@ -205,3 +205,13 @@ body{
     margin-bottom: 15px;
     
 }
+
+/* price */
+
+.price_container{
+    text-align: center;
+        .price_table{
+        padding-top: 60px;
+        display: flex;
+    }
+}
