@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root{
     --padding--container: 100px 0;
     --color-title: #001A49;
 }
-
 body{
     font-family: "Montserrat", sans-serif;
 }
-
 .imgmp{
     max-width: 15mm;
     float: left;
     list-style: none;
 }
-
-
 .container{
     width: 90%;
     max-width: 1200px;
@@ -24,7 +19,6 @@ body{
     padding: var(--padding--container);
     list-style: none;
 }
-
 .hero{
     width: 100%;
     height: 100vh;
@@ -35,7 +29,6 @@ body{
     grid-template-rows: 100px 1fr;
     color: #fff;
 }
-
 .hero::before{
     content:"";
     position: absolute;
@@ -49,20 +42,17 @@ body{
     z-index: -1;
 
 }
-
 .nav{
     --padding--container:0;
     height: 100%;
     display: flex;
     align-items: center;
 }
-
 .nav_title{
     font-weight: 200;
     margin-left: 5%;
     list-style: none;
 }
-
 .nav_link{
     margin-left: auto;
     padding: 0;
@@ -71,33 +61,26 @@ body{
     grid-auto-columns: max-content;
     gap: 2em;
 }
-
 .nav_items{
     list-style: none;
 
 }
-
-
 .nav_links{
     color: #fff;
     text-decoration: none;
 }
-
 .nav_menu{
     margin-left: auto;
     cursor: pointer;
     display: none;
 }
-
 .nav_img{
     display: block;
     width: 30px;
 }
-
 .nav_close{
     display: var(--show, none);
 }
-
 .hero_container{
     text-align: center;
     max-width: 800px;
@@ -109,17 +92,14 @@ body{
     padding-bottom: 100px;
     text-align: center;
 }
-
 .hero_title{
     text-align: center;
     font-size: 3rem;
 }
-
 .hero_paragraph{
     text-align: center;
     margin-bottom: 20px;
 }
-
 .cta{
     text-align: center;
     display: inline-block;
@@ -130,7 +110,9 @@ body{
     padding: 13px 30px;
     border-radius: 30px;
 }
-
+.about{
+    text-align: center;
+}
 .container_about{
     text-align: center;
 }
@@ -139,12 +121,10 @@ body{
     font-size: 2rem;
     margin-bottom: 25px;
 }
-
 .about_paragraph{
     text-align: center;
     line-height: 1.7;
 }
-
 .about_main{
     padding-top: 80px;
     display: grid;
@@ -154,7 +134,6 @@ body{
     overflow: hidden;
     grid-template-columns: repeat(auto-fit,minmax(260px, auto));
 }
-
 .about_icons{
     text-align: center;
     display: grid;
@@ -164,11 +143,9 @@ body{
     overflow: hidden;
     margin: auto;
 }
-
 .about_icon{
     width: 40px;
 }
-
 .knowledge{
     margin-top: 100px;
     background-color: #e5e5f7;
@@ -177,33 +154,27 @@ body{
     background-position: 0 0,10px 10px;
     overflow: hidden;
 }
-
 .knowledge_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
 }
-
 .knowledge_picture{
     max-width: 500px;
 }
-
 .knowledge_paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
     text-align: justify;
 }
-
 .knowledge_img{
     width: 100%;
     display: block;
 }
-
 .price{
     text-align: center;
 }
-
 .price_table{
     padding-top: 60px;
     display: flex;
@@ -212,7 +183,6 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-
 .price_element{
     background-color: #E5E5F7;
     text-align: center;
@@ -225,19 +195,16 @@ body{
     --color-cta: #5454D4;
     --color-items: #696b71;
     }
-
     .price_name{
         color: var(--color-plan);
         margin-bottom: 15px;
         font-weight: 300px;
         
     }
-
     .price_price{
         font-size: 2.0rem;
         color: var(--color-price);
     }
-
     .price_items{
         margin-top: 35px;
         display: grid;
@@ -247,7 +214,6 @@ body{
         margin-bottom: 50px;
         color: var(--color-items);
     }
-
     .price_cta{
         display: block;
         padding: 20px 0;
@@ -257,12 +223,9 @@ body{
         font-weight: 600;
         box-shadow: 0 0 1px rgba(0, 0, 0, .5);
     }
-
     .testimony{
         background-color: #e5e5f7;
     }
-    
-
     .testimony_container{
         flex-wrap: wrap;
         display: grid;
@@ -270,7 +233,6 @@ body{
         gap: 1em;
         align-items: center;
     }
-
     .testimony_body{
         flex-wrap: wrap;
         display: grid;
@@ -283,14 +245,12 @@ body{
         opacity: 0;
         pointer-events: none;
     }
-
     .testimony_body-show{
         flex-wrap: wrap;
         pointer-events: unset;
         opacity: 1;
         transition: opacity 1.5s ease-in-out;
     }
-
     .testimony_img{
         width: 250px;
         height: 250px;
@@ -298,13 +258,11 @@ body{
         object-fit: cover;
         object-position: 50% 30%;
     }
-
     .testimony_texts{
         flex-wrap: wrap;
         max-width: 700px;
         text-align: justify;
     }
-
     .testimony_course{
         flex-wrap: wrap;
         background-color: royalblue;
@@ -312,41 +270,33 @@ body{
         display: inline-block;
         padding: 5px;
     }
-
     .testimony_arrow{
         flex-wrap: wrap;
         width: 90%;
         cursor: pointer;
     }
-
-    /* Questions */
     .questions{
         text-align: center;
     }
-
     .questions_container{
         display: grid;
         gap: 2em;
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
     }
-
     .questions_padding{
         padding: 0;
         transition: padding .3s;
         border: 1px solid #5454D4;
         border-radius: 6px;
     }
-
     .questions_padding-add{
         padding-bottom: 30px;   
     }
-
     .questions_answer{
         padding: 0 30px 0;
         overflow: hidden;
     }
-
     .questions_title{
         text-align: left;
         display: flex;
@@ -356,7 +306,6 @@ body{
         color: var(--color-title);
         justify-content: space-between;
     }
-
     .questions_arrow{
         border-radius: 50%;
         background-color: #001a49;
@@ -369,46 +318,37 @@ body{
         margin-left: 10px;
         transition: transform .3s;
     }
-
     .questions_arrow-rotate{
         transform: rotate(180deg);
     }
-
     .questions_show{
         text-align: justify;
         height: 0;
         transition: height .3s;
     }
-
     .questions_img{
         display: block;
     }
-
     .questions_offer{
       text-align: center;  
     }
-
     .questions_copy{
         width: 60%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
-
     .footer{
         margin-top: 100px;
         background-color: #1d293f;
     }
-
     .footer_title{
         font-weight: 300;
         font-size: 2rem;
         margin-bottom: 30px;
     }
-
     .footer_title, .footer_newsletter{
         color: #fff;
     }
-
     .footer_container{
         display: flex;
         justify-content: space-between;
@@ -416,7 +356,6 @@ body{
         border-bottom: 1px solid #fff;
         padding-bottom: 60px;
     }
-
     .nav-footer{
         padding-bottom: 20px;
         display: grid;
@@ -424,20 +363,17 @@ body{
         grid-auto-flow: row;
         height: 100%;
     }
-
     .nav_link-footer{
         display: flex;
         margin: 0;
         margin-right: 20px;
         flex-wrap: wrap; 
     }
-
     .footer_inputs{
         margin-top: 10px;
         display: flex;
         overflow: hidden;
     }
-
     .footer_input{
         background-color: #fff;
         height: 50px;
@@ -449,7 +385,6 @@ body{
         border: none;
         margin-right: 16px;
     }
-
     .footer_submit{
         margin-left: auto;
         display: inline-block;
@@ -460,26 +395,22 @@ body{
         font-size: 1rem;
         color: #fff;
         border-radius: 6px;
+        cursor: pointer;
     }
-
     .footer_copy{
         --padding--container: 30px 0;
         text-align: center;
         color: #fff;
     }
-
     .footer_copyright{
         font-weight: 300;
     }
-
     .footer_icons{
         margin-bottom: 10px;
     }
-
     .footer_img{
         width: 30px;
     }
-
     @media (max-width:800px){
         .nav_menu{
             display: block;
@@ -512,8 +443,7 @@ body{
             width: 30px;
             cursor: pointer;
          }
-    }
-    .hero_title{
+             .hero_title{
         font-size: 2.5rem;
     }
     .about_main{
@@ -528,76 +458,105 @@ body{
         gap: 3em;
         text-align: center;
     }
-.knowledge_picture{
-    grid-row: 1/2;
-    justify-self: center;
-}
-.testimony_container{
-    grid-template-columns: 30px 1fr 30px;
-}
-.testimony_body{
-    grid-template-columns: 1fr;
-    grid-template-rows: max-content max-content;
-    gap: 3em;
-    justify-items: center;
-}
-.testimony_img{
-    width: 200px;
-    height: 200px;
-}
-.questions_copy{
-    width: 100%;
-}
-.footer_container{
-    flex-wrap: wrap;
-}
-.nav-footer{
-    width: 100%;
-    justify-items: center;
-}
-.nav_link-footer{
-    width: 100%;
-    justify-content: space-evenly;
-    margin: 0;
-}
-.footer_form{
-    width: 100%;
-    justify-content: space-evenly;
-}
-.footer_input{
-    flex: 1;
-}
-@media (max-width:600px){
-    .hero_title{
-        font-size: 2rem;
-    }
-    .hero_paragraph{
-        font-size: 1rem;
-    }
-    .subtitle{
-        font-size: 1.8rem;
-    }
-    .price_element{
-        width: 90%;
-    }
-    .price_element-best{
-        width: 90%;
-        padding: 40px;
-    }
-    .price_price{
-        font-size: 2rem;
-    }
-    .testimony{
-        --padding-container: 60px 0;
+    .knowledge_picture{
+        grid-row: 1/2;
+        justify-self: center;
     }
     .testimony_container{
-        grid-template-columns: 28px 1fr 28px;
-        gap: .9em;
+        grid-template-columns: 30px 1fr 30px;
     }
-    .testimony_arrow{
-        width: 50%;
+    .testimony_body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 3em;
+        justify-items: center;
     }
-    .testimony_course{
-        margin-top: 15px;
+    .testimony_img{
+        width: 200px;
+        height: 200px;
     }
-}
+    .questions_copy{
+        width: 100%;
+    }
+    .footer_container{
+        flex-wrap: wrap;
+    }
+    .nav-footer{
+        width: 100%;
+        justify-items: center;
+    }
+    .nav_link-footer{
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .footer_form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .footer_input{
+        flex: 1;
+    }
+    @media (max-width:600px){
+        .hero_title{
+            font-size: 2rem;
+        }
+        .hero_paragraph{
+            font-size: 1rem;
+        }
+        .subtitle{
+            font-size: 1.8rem;
+        }
+        .price_element{
+            width: 90%;
+        }
+        .price_element-best{
+            width: 90%;
+            padding: 40px;
+        }
+        .price_price{
+            font-size: 2rem;
+        }
+        .testimony{
+            --padding-container: 60px 0;
+        }
+        .testimony_container{
+            grid-template-columns: 28px 1fr 28px;
+            gap: .9em;
+        }
+        .testimony_arrow{
+            width: 50%;
+        }
+        .testimony_course{
+            margin-top: 15px;
+        }
+        .questions_title{
+            font-size: 1rem;
+        }
+        .footer_title{
+            justify-self: start;
+            margin: 15px;
+        }
+        .footer_inputs{
+            flex-wrap: wrap;
+        }
+        .footer_input{
+            flex-basis: 100%;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+        .footer_submit{
+            margin-right: auto;
+        }
+        .nav_link-footer{
+            justify-content: space-between;
+        }
+        .nav-footer{
+            padding-bottom: 60px;
+        }
+        .footer_submit{
+            margin: 0;
+            width: 100%;
+        }
+     }
+    }
