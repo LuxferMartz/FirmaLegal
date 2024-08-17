@@ -110,6 +110,25 @@ body{
     padding: 13px 30px;
     border-radius: 30px;
 }
+.pub_text{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.pub_paragraph{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.btm{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #2091f9;
+    color: #fff;
+    border-radius: 10px;
+}
     .footer{
         margin-top: 100px;
         background-color: #1d293f;
