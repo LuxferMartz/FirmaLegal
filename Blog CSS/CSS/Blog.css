@@ -110,6 +110,10 @@ body{
     padding: 13px 30px;
     border-radius: 30px;
 }
+.pub_subtitle{
+    text-align: justify;
+    padding-bottom: 10px;
+}
 .pub_text{
     text-align: justify;
     padding-bottom: 10px;
@@ -238,37 +242,28 @@ body{
              .hero_title{
         font-size: 2.5rem;
     }
-    .about_main{
-        gap: 2em;
+    .pub_subtitle{
+        text-align: left;
+        padding-bottom: 10px;
     }
-    .about_icons:last-of-type{
-        grid-column: 1/-1;
+    .pub_text{
+        text-align: justify;
+        padding-bottom: 10px;
     }
-    .knowledge_container{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content 1fr;
-        gap: 3em;
+    .pub_paragraph{
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+    .btm{
+        display: block;
+        align-items: center;
         text-align: center;
-    }
-    .knowledge_picture{
-        grid-row: 1/2;
-        justify-self: center;
-    }
-    .testimony_container{
-        grid-template-columns: 30px 1fr 30px;
-    }
-    .testimony_body{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content max-content;
-        gap: 3em;
-        justify-items: center;
-    }
-    .testimony_img{
-        width: 200px;
-        height: 200px;
-    }
-    .questions_copy{
-        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: #2091f9;
+        color: #fff;
+        border-radius: 10px;
     }
     .footer_container{
         flex-wrap: wrap;
@@ -299,31 +294,28 @@ body{
         .subtitle{
             font-size: 1.8rem;
         }
-        .price_element{
-            width: 90%;
+        .pub_subtitle{
+            text-align: center;
+            padding-bottom: 10px;
         }
-        .price_element-best{
-            width: 90%;
-            padding: 40px;
+        .pub_text{
+            text-align: justify;
+            padding-bottom: 10px;
         }
-        .price_price{
-            font-size: 2rem;
+        .pub_paragraph{
+            text-align: justify;
+            padding-bottom: 20px;
         }
-        .testimony{
-            --padding-container: 60px 0;
-        }
-        .testimony_container{
-            grid-template-columns: 28px 1fr 28px;
-            gap: .9em;
-        }
-        .testimony_arrow{
-            width: 50%;
-        }
-        .testimony_course{
-            margin-top: 15px;
-        }
-        .questions_title{
-            font-size: 1rem;
+        .btm{
+            display: block;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            flex-direction: column;
+            text-decoration: none;
+            background-color: #2091f9;
+            color: #fff;
+            border-radius: 10px;
         }
         .footer_title{
             justify-self: start;
