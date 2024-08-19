@@ -381,6 +381,9 @@ body{
     .about_main{
         gap: 2em;
     }
+    .about_paragraph{
+        margin: 30px;
+    }
     .about_icons:last-of-type{
         grid-column: 1/-1;
     }
@@ -430,14 +433,22 @@ body{
         flex: 1;
     }
     @media (max-width:600px){
+        .hero_container{
+            margin: 30px;
+        }
         .hero_title{
             font-size: 2rem;
         }
         .hero_paragraph{
             font-size: 1rem;
+            margin: 30px;
         }
         .subtitle{
             font-size: 1.8rem;
+            margin: 30px;
+        }
+        .about_paragraph{
+            margin: 30px;
         }
         .testimony{
             --padding-container: 60px 0;

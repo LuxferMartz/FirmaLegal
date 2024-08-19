@@ -256,6 +256,14 @@ body{
              .hero_title{
         font-size: 2.5rem;
     }
+    .hero_container{
+        margin: 30px;
+        align-content: center;
+    }
+    .container_about{
+        margin: 30px;
+        align-items: center;
+    }
     .about_main{
         gap: 2em;
     }
@@ -288,6 +296,9 @@ body{
     .questions_copy{
         width: 100%;
     }
+    .container_about{
+        margin: 30px;
+    }
     .footer_container{
         flex-wrap: wrap;
     }
@@ -316,6 +327,7 @@ body{
         }
         .subtitle{
             font-size: 1.8rem;
+            margin: 30px;
         }
         .price_element{
             width: 90%;
@@ -326,6 +338,14 @@ body{
         }
         .price_price{
             font-size: 2rem;
+        }
+        .hero_container{
+            margin: auto;
+            align-content: center;
+        }
+        .container_about{
+            margin: auto;
+            align-items: center;
         }
         .testimony{
             --padding-container: 60px 0;

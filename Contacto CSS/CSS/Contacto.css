@@ -294,6 +294,9 @@ body{
              .hero_title{
         font-size: 2.5rem;
     }
+    .container_about{
+        margin: 30px;
+    }
     .about_main{
         gap: 2em;
     }
@@ -354,6 +357,13 @@ body{
         }
         .subtitle{
             font-size: 1.8rem;
+        }
+        .container_about{
+            align-content: center;
+        }
+        .cuestionario{
+            align-content: center;
+            margin: auto;
         }
         .price_element{
             width: 90%;
